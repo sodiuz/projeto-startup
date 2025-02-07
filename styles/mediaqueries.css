@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 768px) {
+
+    header {
+        width: 96vw;
+        height: 330px;
+        color: black;
+    }
+    
+    header h3 {
+        color: #A54A3C;
+        font-family: var(--font-title);
+        font-weight: 900;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    header img {
+        display: flex;
+        width: 180px;
+        height: 180px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    nav {
+        text-align: center;
+        padding: 20px;
+    }
+
+    nav ul li {
+        display: inline;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        font-family: var(--font-text);
+        font-size: 1.1em;
+        transition: 0.5s;
+    }
+
+    nav ul li a:hover {
+        color: #A54A3C;
+        text-decoration: underline;
+    }
+
+    main h1 {
+        margin: auto;
+        text-align: center;
+        font-family: var(--font-title);
+        font-size: 30px;
+        max-width: 550px;
+    }
+
+    main h1 strong {
+        color: #A54A3C;
+    }
+
+    main p.button {
+        background-color: #A54A3C;
+        text-align: center;
+        margin: auto;
+        margin-top: 28px;
+        margin-bottom: 28px;
+        padding: 15px;
+        width: 422px;
+        border-radius: 8px;
+    }
+
+    main p.button a {
+        text-decoration: none;
+        color: white;
+    }
+
+    main p {
+        font-family: var(--font-text);
+        font-size: 1.2em;
+        text-align: justify;
+        padding: 25px;
+        text-indent: 10px;
+        max-width: 720px;
+    }
+
+    main strong {
+        color: #A54A3C;
+    }
+
+    main div.predios {
+        text-align: center;
+    }
+    
+}
