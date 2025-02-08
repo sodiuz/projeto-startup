@@ -1,3 +1,4 @@
+@charset "UTF-8";
 
 /* CELULARES */
 
@@ -37,6 +38,10 @@
         font-size: 19px;
         font-weight: normal;
     }
+
+    nav ul li#sobre {
+        max-width: 81px;
+    }
     
     main strong {
         color: #A54A3C;
@@ -56,7 +61,7 @@
         font-family: var(--font-title);
         font-size: 32px;
         margin-bottom: 15px;
-        max-width: 500px;
+        max-width: 483px;
     }
 
     main p#button {
@@ -68,6 +73,7 @@
         margin-bottom: 35px;
         width: 332px;
         border-radius: 8px;
+        max-width: 364px;
     }
 
     main p#button a {
