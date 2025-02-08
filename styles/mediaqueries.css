@@ -48,6 +48,7 @@
     }
     main h1 { 
         margin: auto;
+        margin-bottom: 3px;
         text-align: center;
         color: #A54A3C;
         font-family: var(--font-title);
@@ -84,7 +85,7 @@
         color: white;
         font-family: var(--font-text);
         font-weight: 400;
-        font-size: 20px;
+        font-size: 19px;
         max-width: 312px;
     }
 
