@@ -94,10 +94,14 @@
         max-width: 630px;
     }
 
-    main div.foto {
-        width: 100vw;
-        height: 600px;
-        background-color: black;
+    main div.fundos {
+        min-width: 300px;
+        max-width: 768px;
+        height: 400px;
+        display: block;
+        box-shadow: inset 0px 3px 4px rgba(0, 0, 0, 0.301);
+        background-color: lightgray;
+        background-image: url(../imagens/imagem_predios_pq.jpeg);
     }
 }
 
