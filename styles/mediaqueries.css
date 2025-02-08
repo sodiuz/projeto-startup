@@ -1,99 +1,108 @@
-* {
-    margin: 0px;
-    padding: 0px;
-}
 
-@media screen and (max-width: 768px) {
+/* CELULARES */
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
 
     header {
-        width: 96vw;
-        height: 330px;
-        color: black;
-    }
-    
-    header h3 {
-        color: #A54A3C;
-        font-family: var(--font-title);
-        font-weight: 900;
-        font-size: 40px;
-        text-align: center;
-        margin-top: 20px;
-    }
-    
-    header img {
         display: flex;
-        width: 180px;
-        height: 180px;
-        margin: auto;
-        padding: 20px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
     }
 
-    nav {
-        text-align: center;
-        padding: 20px;
+    header img {
+        width: 84.62px;
+        height: 85px;
+    }
+
+    header menu {
+        display: flex;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
     }
 
     nav ul li {
-        display: inline;
+        margin-left: 20px;
     }
-
+   
     nav ul li a {
         text-decoration: none;
         color: black;
-        padding: 10px;
         font-family: var(--font-text);
-        font-size: 1.1em;
-        transition: 0.5s;
+        font-size: 19px;
+        font-weight: normal;
     }
-
-    nav ul li a:hover {
-        color: #A54A3C;
-        text-decoration: underline;
-    }
-
-    main h1 {
-        margin: auto;
-        text-align: center;
-        font-family: var(--font-title);
-        font-size: 30px;
-        max-width: 550px;
-    }
-
-    main h1 strong {
-        color: #A54A3C;
-    }
-
-    main p.button {
-        background-color: #A54A3C;
-        text-align: center;
-        margin: auto;
-        margin-top: 28px;
-        margin-bottom: 28px;
-        padding: 15px;
-        width: 422px;
-        border-radius: 8px;
-    }
-
-    main p.button a {
-        text-decoration: none;
-        color: white;
-    }
-
-    main p {
-        font-family: var(--font-text);
-        font-size: 1.2em;
-        text-align: justify;
-        padding: 25px;
-        text-indent: 10px;
-        max-width: 720px;
-    }
-
+    
     main strong {
         color: #A54A3C;
     }
-
-    main div.predios {
+    main h1 { 
+        margin: auto;
         text-align: center;
+        color: #A54A3C;
+        font-family: var(--font-title);
+        font-size: 40px;
+        padding: 15px;
     }
+
+    main h2 {
+        margin: auto;
+        text-align: center;
+        font-family: var(--font-title);
+        font-size: 32px;
+        margin-bottom: 15px;
+        max-width: 500px;
+    }
+
+    main p#button {
+        margin: auto;
+        text-align: center;
+        background-color: #A54A3C;
+        padding: 16px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        width: 332px;
+        border-radius: 8px;
+    }
+
+    main p#button a {
+        text-decoration: none;
+        color: white;
+        font-family: var(--font-text);
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .texto1 {
+        margin: 20px;
+    }
+
+    .texto1 p {
+        margin: auto;
+        text-align: justify;
+        font-family: var(--font-text);
+        font-size: 20px;
+        font-weight: 100;
+        margin-bottom: 15px;
+        line-height: 160%;
+        text-indent: 30px;
+        max-width: 630px;
+    }
+
+    main div.foto {
+        width: 100vw;
+        height: 600px;
+        background-color: black;
+    }
+}
+
+/* TABLETS */
+
+@media screen {
     
 }
