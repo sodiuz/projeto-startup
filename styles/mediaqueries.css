@@ -44,6 +44,11 @@
         background-color: lightgray;
         background-image: url(../imagens/imagem_predios_pq.jpeg);
     }
+
+    section.texto2 h2 {
+        margin-top: 15px;
+        padding: 5px 0px 5px 0px;
+    }
 }
 
 /* TABLETS */
