@@ -86,6 +86,10 @@ main p#button a {
     max-width: 630px;
 }
 
+.texto2 h2 {
+    font-size: 30px;
+}
+
 .equipe {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -107,7 +111,6 @@ main p#button a {
 
 #bruna img, #carlos img, #esther img, #rafael img{
     width: 160px;
-    height: 160px;
 }
 
 .iframe {
@@ -118,6 +121,14 @@ main p#button a {
 .iframe iframe {
     width: 400px;
     height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+}
+
+footer {
+    background-color: #A54A3C;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
 
 
