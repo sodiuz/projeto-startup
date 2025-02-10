@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+/* Typical Device Breakpoints 
+-----------------------------
+Pequenas telas: Até 600px
+Celular: 600 - 768px
+Tablet: 768 - 992px
+Desktop: 992 - 1200px
+Grandes telas: Acima de 1200px
+-----------------------------
+*/
+
 /* CELULARES */
 
 @media screen and (max-width: 768px) {
@@ -68,6 +78,65 @@
 
 /* TABLETS */
 
-@media screen {
+@media screen and (max-width: 992px) {
+   
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
+    header img {
+        width: 84.62px;
+        height: 85px;
+    }
+
+    header menu {
+        display: flex;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin-left: 20px;
+    }
+
+    .texto1 {
+        margin: 20px;
+    }
+
+    main div.fundos {
+        min-width: 300px;
+        max-width: 768px;
+        height: 400px;
+        display: block;
+        box-shadow: inset 0px 3px 4px rgba(0, 0, 0, 0.301);
+        background-color: lightgray;
+        background-image: url(../imagens/imagem_predios_pq.jpeg);
+    }
+
+    section.texto2 h2 {
+        margin-top: 15px;
+        padding: 5px 0px 5px 0px;
+    }
+
+    .iframe iframe {
+        width: 400px;
+        height: 300px;
+        border: 1px solid rgba(0, 0, 0, 0.39);
+    }
     
+    footer {
+        background-color: #A54A3C;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+     
 }
