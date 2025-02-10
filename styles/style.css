@@ -12,6 +12,10 @@
 :root {
     --font-title: "Libre Caslon Text", serif;
     --font-text: "Inter", serif;
+
+    --cor-principal: #A54A3C;
+    --cor-complementar: #A65C3C;
+    --cor-complementar2: #A63C4B;
 }
 
 nav ul li a {
@@ -26,7 +30,7 @@ main h1 {
     margin: auto;
     margin-bottom: 3px;
     text-align: center;
-    color: #A54A3C;
+    color: var(--cor-principal);
     font-family: var(--font-title);
     font-size: 40px;
     padding: 15px;
@@ -46,19 +50,20 @@ main h2 strong {
 }
 
 main strong {
-    color: #A54A3C;
+    color: var(--cor-principal);
 }
 
 
 main p#button {
     margin: auto;
     text-align: center;
-    background-color: #A54A3C;
+    background-image: linear-gradient(to right, var(--cor-complementar2), var(--cor-complementar), var(--cor-principal));
     padding: 16px;
     margin-top: 35px;
     margin-bottom: 35px;
     width: 332px;
     border-radius: 8px;
+    transition: .5s;
 }
 
 main p#button a {
@@ -68,6 +73,10 @@ main p#button a {
     font-weight: 400;
     font-size: 23px;
     max-width: 312px;
+}
+
+main p#button:hover {
+    padding: 20px;
 }
 
 .texto1 {
@@ -125,7 +134,7 @@ main p#button a {
 }
 
 footer {
-    background-color: #A54A3C;
+    background-image: linear-gradient(to right, var(--cor-complementar2), var(--cor-complementar), var(--cor-principal));
     color: white;
     padding: 10px;
     text-align: center;
