@@ -78,7 +78,7 @@ Grandes telas: Acima de 1200px
 
 /* TABLETS */
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width:768px) and (max-width: 992px) {
    
     header {
         display: flex;
@@ -111,9 +111,13 @@ Grandes telas: Acima de 1200px
         margin: 20px;
     }
 
+    div.equipe-tablet {
+        display: flex;
+    }
+
     main div.fundos {
         min-width: 300px;
-        max-width: 768px;
+        max-width: 992px;
         height: 400px;
         display: block;
         box-shadow: inset 0px 3px 4px rgba(0, 0, 0, 0.301);

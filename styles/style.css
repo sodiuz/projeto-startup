@@ -34,7 +34,7 @@ main h1 {
     font-family: var(--font-title);
     font-size: 40px;
     padding: 15px;
-    box-shadow: ;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.37);
 }
  
 main h2 {
@@ -44,6 +44,7 @@ main h2 {
     font-size: 29px;
     margin-bottom: 15px;
     max-width: 400px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.37);
 }
 
 main h2 strong {
@@ -54,7 +55,6 @@ main strong {
     color: var(--cor-principal);
 }
 
-
 main p#button {
     margin: auto;
     text-align: center;
@@ -64,7 +64,12 @@ main p#button {
     margin-bottom: 35px;
     width: 332px;
     border-radius: 8px;
-    transition: .5s;
+    transition: 1s;
+}
+
+main p#button:hover {
+    padding: 20px;
+    background-image: linear-gradient(to left, var(--cor-principal), var(--cor-complementar2), var(--cor-complementar));
 }
 
 main p#button a {
@@ -74,10 +79,7 @@ main p#button a {
     font-weight: 400;
     font-size: 23px;
     max-width: 312px;
-}
-
-main p#button:hover {
-    padding: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.37);
 }
 
 .texto1 {
@@ -110,7 +112,7 @@ main p#button:hover {
     max-width: 768px;
     height: 440px;
     margin: auto;
-    background-color: #c46e4a;
+    background-color: rgba(151, 127, 123, 0.568);
     border-radius: 15px;
     border: 1px solid rgba(0, 0, 0, 0.856);
     box-sizing: border-box;
@@ -125,6 +127,11 @@ main p#button:hover {
 
 #bruna img, #carlos img, #esther img, #rafael img{
     width: 160px;
+    transition: .8s;
+}
+
+#bruna img:hover, #carlos img:hover, #esther img:hover, #rafael img:hover {
+    width: 170px;
 }
 
 .iframe {
