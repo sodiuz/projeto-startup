@@ -21,11 +21,6 @@ Grandes telas: Acima de 1200px
         padding: 10px 20px;
     }
 
-    header img {
-        width: 84.62px;
-        height: 85px;
-    }
-
     header menu {
         display: flex;
     }
@@ -40,6 +35,21 @@ Grandes telas: Acima de 1200px
     nav ul li {
         margin-left: 20px;
     }
+
+    .maiores {
+        width: 84.62px;
+        height: 85px;
+    }
+
+    .maiores img {
+        width: 84.62px;
+        height: 85px;
+        margin: 0px;
+    }
+    .maiores h1 {
+        display: none;
+    }
+    
 
     .texto1 {
         margin: 20px;
@@ -88,8 +98,7 @@ Grandes telas: Acima de 1200px
     }
 
     header img {
-        width: 84.62px;
-        height: 85px;
+        width: 88px;
     }
 
     header menu {
@@ -107,8 +116,41 @@ Grandes telas: Acima de 1200px
         margin-left: 20px;
     }
 
+    nav ul li a {
+        font-size: 23px;
+        font-weight: 500;
+    }
+
+    main h1 {
+        display: none;
+    }
+
+    main h2 {
+        font-size: 40px;
+        min-width: 400px;
+        margin-top: 10px;
+    }
+
     .texto1 {
         margin: 20px;
+    }
+
+    .equipe {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+        min-width: 400px;
+        max-width: 768px;
+        height: 440px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        background-color: rgba(151, 127, 123, 0.568);
+        border-radius: 15px;
+        border: 1px solid rgba(0, 0, 0, 0.856);
+        box-sizing: border-box;
     }
 
     div.equipe-tablet {
@@ -116,7 +158,7 @@ Grandes telas: Acima de 1200px
     }
 
     main div.fundos {
-        min-width: 300px;
+        min-width: 350px;
         max-width: 992px;
         height: 400px;
         display: block;
@@ -131,9 +173,10 @@ Grandes telas: Acima de 1200px
     }
 
     .iframe iframe {
-        width: 400px;
+        width: 300px;
         height: 300px;
         border: 1px solid rgba(0, 0, 0, 0.39);
+        margin-right: 3vw;
     }
     
     footer {

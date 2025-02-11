@@ -24,6 +24,27 @@ nav ul li a {
     font-family: var(--font-text);
     font-size: 19px;
     font-weight: normal;
+    padding: 15px;
+    transition: .3s;
+}
+
+nav ul li a:hover {
+    color: var(--cor-principal);
+}
+
+.maiores {
+    display: flex;
+    align-items: center;
+}
+
+.maiores h1 {
+    font-family: var(--font-title);
+    color: var(--cor-principal);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.37);
+}
+
+.maiores img {
+    margin: 0px 0px 0px 30px;
 }
 
 main h1 { 
@@ -43,12 +64,12 @@ main h2 {
     font-family: var(--font-title);
     font-size: 29px;
     margin-bottom: 15px;
-    max-width: 400px;
+    min-width: 400px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.37);
 }
 
-main h2 strong {
-    max-width: 329px;
+main h2 span {
+    color: var(--cor-principal);
 }
 
 main strong {
