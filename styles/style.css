@@ -24,7 +24,7 @@ nav ul li a {
     font-family: var(--font-text);
     font-size: 19px;
     font-weight: normal;
-    padding: 15px;
+    padding: 10px;
     transition: .3s;
 }
 
