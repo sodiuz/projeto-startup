@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
     --font-title: "Libre Caslon Text", serif;
@@ -16,6 +16,28 @@
     --cor-principal: #A54A3C;
     --cor-complementar: #A65C3C;
     --cor-complementar2: #A63C4B;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+header menu {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
 }
 
 nav ul li a {
@@ -105,14 +127,14 @@ main p#button a {
 
 .texto1 {
     margin: 20px;
+    font-weight: 700;
 }
 
 .texto1 p, .texto2 p {
-    margin: auto;
     text-align: justify;
     font-family: var(--font-text);
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 400;
     margin-bottom: 15px;
     line-height: 160%;
     text-indent: 30px;
