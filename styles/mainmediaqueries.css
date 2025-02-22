@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints 
+-----------------------------
+Pequenas telas: Até 600px
+Celular: 600 - 768px
+Tablet: 768 - 992px
+Desktop: 992 - 1200px
+Grandes telas: Acima de 1200px
+-----------------------------
+*/
+
+/* CELULARES */
+
+@media screen and (max-width: 768px) {
+
+    .maiores {
+        width: 84.62px;
+        height: 85px;
+    }
+
+    .maiores img {
+        width: 84.62px;
+        height: 85px;
+        margin: 0px;
+    }
+
+    .maincards {
+        display: flex;
+    }
+
+    .maincards div {
+        flex-direction: column;
+    }
+    
+    footer {
+        background-color: #A54A3C;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    
+}
+
+/* TABLETS */
+
+@media screen and (min-width:768px) and (max-width: 992px) {
+   
+    header img {
+        width: 88px;
+    }
+
+    nav ul li a {
+        font-size: 23px;
+        font-weight: 500;
+    }
+
+    main h2 {
+        font-size: 40px;
+        min-width: 400px;
+        margin-top: 10px;
+    }
+
+    .texto1 {
+        margin: 20px;
+    }
+
+    .texto1 p {
+        margin: auto;
+        text-align: justify;
+        font-family: var(--font-text);
+        font-size: 22px;
+        font-weight: 400;
+        margin-bottom: 15px;
+        line-height: 160%;
+        text-indent: 30px;
+        max-width: 630px;
+    }
+
+    .maincards {
+        display: flex;
+    }
+
+    .maincards div {
+        flex-direction: row;
+    }
+    
+    footer {
+        background-color: #A54A3C;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+     
+}
+
+/* COMPUTADORES */
+
+@media screen and (min-width: 992px) {
+    header img {
+        width: 88px;
+    }
+
+    nav ul li a {
+        font-size: 23px;
+        font-weight: 500;
+    }
+
+    main h2 {
+        font-size: 40px;
+        min-width: 400px;
+        margin-top: 10px;
+    }
+
+    .texto1 p, .texto2 p {
+        margin: auto;
+        text-align: justify;
+        font-family: var(--font-text);
+        font-size: 22px;
+        font-weight: 400;
+        margin-bottom: 15px;
+        line-height: 160%;
+        text-indent: 30px;
+        max-width: 630px;
+    }
+
+    .equipe {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+        min-width: 400px;
+        max-width: 800px;
+        height: 440px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        background-color: rgba(151, 127, 123, 0.568);
+        border-radius: 15px;
+        border: 1px solid rgba(0, 0, 0, 0.856);
+        box-sizing: border-box;
+    }
+
+    div.equipe-tablet {
+        display: flex;
+    }
+
+    main div.fundos {
+        min-width: 992px;
+        height: 400px;
+        display: block;
+        box-shadow: inset 0px 3px 4px rgba(0, 0, 0, 0.301);
+        background-color: lightgray;
+        background-image: url(../imagens/imagem_predios_pq.jpeg);
+    }
+
+    section.texto2 h2 {
+        margin-top: 15px;
+        padding: 5px 0px 5px 0px;
+    }
+
+    .iframe iframe {
+        width: 500px;
+        height: 420px;
+        border: 1px solid rgba(0, 0, 0, 0.39);
+        margin-right: 15vw;
+    }
+    
+    footer {
+        background-color: #A54A3C;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    } 
+}

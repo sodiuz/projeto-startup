@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+:root {
+    --font-title: "Libre Caslon Text", serif;
+    --font-text: "Inter", serif;
+
+    --cor-principal: #A54A3C;
+    --cor-complementar: #A65C3C;
+    --cor-complementar2: #A63C4B;
+}
+
+main h1 {
+    text-align: center;
+    color: var(--cor-principal);
+}
+
+.maincards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card1, .card2, .card3, .card4 {
+    border-radius: 20px;
+    background-color: gray;
+    text-align: center;
+    padding: 15px;
+    margin: 10px 0px 10px 0px;
+}
+
+.card1 h2, .card2 h2, .card3 h2, .card4 h2 {
+    display: inline-block;
+}
+
+.card1 a, .card2 a, .card3 a, .card4 a { 
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    margin: auto;
+    bottom: 0;
+}
